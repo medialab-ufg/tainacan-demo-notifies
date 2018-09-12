@@ -5,5 +5,5 @@ WP plugin for create notice on adm painel about remain time to restore the taina
 To customize the time interval whereupon database is reseted, set the constant DEMO_TAINACAN_TIME_INTERVAL, eg:
 
 ```
-define('DEMO_TAINACAN_TIME_INTERVAL', [time interval]);
+define('DEMO_TAINACAN_TIME_INTERVAL', [time interval in minutes]);
 ```
