@@ -1,6 +1,6 @@
 # tainacan-demo-notifies
 
-plugin for create o notice on adm painel about remain time to restore the tainacan database.
+WP plugin for create notice on adm painel about remain time to restore the tainacan database.
 
 To customize the time interval whereupon database is reseted, set the constant DEMO_TAINACAN_TIME_INTERVAL, eg:
 
