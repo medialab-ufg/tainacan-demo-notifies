@@ -9,7 +9,8 @@ class TainacanDemoNotice {
     }
 
     private function remainTime() {
-        $response = file_get_contents('http://demo.tainacan.org/log.txt');
+        //$response = file_get_contents('http://demo.tainacan.org/log.txt');
+        $response = file_get_contents(ABSPATH.'log.txt');
         $lastTime = new DateTime($response);
         $currentTime = new DateTime();
         $diffTime = $currentTime->diff($lastTime);
